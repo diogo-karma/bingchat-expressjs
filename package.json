@@ -1,0 +1,22 @@
+{
+  "name": "bingchat-expressjs",
+  "version": "1.0.0",
+  "description": "Example of how to use BingChat with ExpressJS",
+  "main": "index.js",
+  "type": "module",
+  "author": "@diogo-karma",
+  "repository": "https://github.com/diogo-karma/bingchat-expressjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bing-chat-rnz": "^0.2.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
